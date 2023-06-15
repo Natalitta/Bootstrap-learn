@@ -1,0 +1,74 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.alert-container {
+
+}
+.callout-container {
+    height: 100vh;
+    background: url('../images/glass-whiskey-bourbon.jpg') no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.quotes-container {
+
+}
+.features-container {
+
+}
+/*jumbotron*/
+.jumbotron {
+    background-color: transparent;
+}
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.jumbotron .lead {
+    color: #d4a58a;
+    margin: 25px 0;
+}
+.jumbotron small {
+    font-size: 70%;
+    font-style: italic;
+    color: #d4a58a;
+}
+
+/*Buttons*/
+.btn-cta {
+    font-weight: bold;
+    border-radius: 25px;
+    width: 140px;
+}
+.btn-yellow {
+    color: white;
+    background-color: #e98d04;
+    border-color: #e98d04;
+}
+.btn-yellow:hover,
+.btn-yellow:active,
+.btn-yellow:focus,
+.btn-yellow:active:focus {
+    background-color: #ce810f;
+    border-color: #ce810f;
+    color: rgb(252, 212, 166);
+}
