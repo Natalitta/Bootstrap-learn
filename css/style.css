@@ -1,6 +1,6 @@
 body {
     font-family: Roboto, sans-serif;
-    
+    color: #6d4005;
 }
 
 .alert-container .col-12{
@@ -46,12 +46,6 @@ opaque-overlay {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.quotes-container {
-
-}
-.features-container {
-
-}
 /*jumbotron*/
 .jumbotron {
     background-color: transparent;
@@ -116,5 +110,54 @@ opaque-overlay {
 
 .navbar .navbar-nav a {
     font-weight: bold;
+}
+.navbar .dropdown-menu {
+    background-color: rgba(250, 185, 6, 0.8);
+}
+.quotes p{
+    font-style: italic;
+}
+/*Page headers*/
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+.page-header h2 {
+    margin: 0;
+    margin-bottom: 30px;
+}
+.quotes .page-header,
+.favourites .page-header {
+    margin-bottom: 25px;
+}
+
+/*Content containers*/
+.content-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container-wrapper-yellow {
+    background-color: #ce810f;
+    color: white;
+}
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.feature i {
+    margin-bottom: 20px;
+}
+.feature .btn {
+    background-color: #e98d04;
+    border-color: white;
+    border-radius: 20px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.favourites .table {
+    color: #6d4005;
 }
 
