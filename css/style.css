@@ -1,8 +1,26 @@
 body {
     font-family: Roboto, sans-serif;
+    
 }
 
-.alert-container {
+.alert-container .col-12{
+    padding-left: 0;
+    padding-right: 0;
+}
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    background-color: #fabd15;
+    border-color: #fabd15;
+    color: #965602;
+}
+.a-link {
+    color: #6d4005;
+    font-weight: bold;
+}
+.a-link:hover {
+    color: #6d4005;
 
 }
 .callout-container {
@@ -57,7 +75,7 @@ opaque-overlay {
 .btn-cta {
     font-weight: bold;
     border-radius: 25px;
-    width: 140px;
+    width: 155px;
 }
 .btn-yellow {
     color: white;
@@ -72,3 +90,31 @@ opaque-overlay {
     border-color: #ce810f;
     color: rgb(252, 212, 166);
 }
+/*Nav*/
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: rgba(56, 32, 2, 0.308);
+    border: 0;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
